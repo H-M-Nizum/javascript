@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Light Switch</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main_div">
+      <h1 id="head">Light switch</h1>
+      <p>
+        This is a light apps. This app works like a switch , light off and light
+        on button.
+      </p>
+      <button
+        id="red"
+        onclick="document.getElementById('myImage').src='red_lightt.jpg'"
+      >
+        Red light
+      </button>
+
+      <img id="myImage" src="off_light.png" style="width: 100px" />
+
+      <button
+        id="green"
+        onclick="document.getElementById('myImage').src='Green_light.png'"
+      >
+        Green light
+      </button>
+      <br />
+      <br />
+      <button onclick="document.getElementById('myImage').src='off_light.png'">
+        Refresh
+      </button>
+    </div>
+  </body>
+</html>

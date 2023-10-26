@@ -1,0 +1,17 @@
+#head {
+  color: red;
+}
+
+.main_div {
+  text-align: center;
+}
+
+#red {
+  color: red;
+  padding: 7px;
+}
+
+#green {
+  color: green;
+  padding: 7px;
+}
