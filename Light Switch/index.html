@@ -13,26 +13,16 @@
         This is a light apps. This app works like a switch , light off and light
         on button.
       </p>
-      <button
-        id="red"
-        onclick="document.getElementById('myImage').src='red_lightt.jpg'"
-      >
-        Red light
-      </button>
+      <button id="red" onclick="redLight()">Red light</button>
 
       <img id="myImage" src="off_light.png" style="width: 100px" />
 
-      <button
-        id="green"
-        onclick="document.getElementById('myImage').src='Green_light.png'"
-      >
-        Green light
-      </button>
+      <button id="green" onclick="greenLight()">Green light</button>
       <br />
       <br />
-      <button onclick="document.getElementById('myImage').src='off_light.png'">
-        Refresh
-      </button>
+      <button onclick="lightOFF()">Refresh</button>
     </div>
+
+    <script src="script.js"></script>
   </body>
 </html>
